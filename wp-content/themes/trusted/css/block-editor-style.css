@@ -1,0 +1,85 @@
+/*
+Theme Name: Trusted
+Description: Used to style the block editor.
+*/
+
+.wp-block{
+	max-width: 1140px;
+}
+
+.editor-post-title__block .editor-post-title__input{
+	font-family: 'Ubuntu', Helvetica, Arial, Verdana, sans-serif;
+}
+
+.editor-default-block-appender textarea.editor-default-block-appender__content{
+	font-family: 'Open Sans', Helvetica, Arial, Verdana, sans-serif;
+}
+
+.editor-styles-wrapper p,
+.editor-styles-wrapper ul,
+.editor-styles-wrapper li{
+/*	background-color: #fff;*/
+	color: #323b44;
+	font-family: 'Open Sans', Helvetica, Arial, Verdana, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 1.68;
+}
+
+.editor-styles-wrapper h1,
+.editor-styles-wrapper h2,
+.editor-styles-wrapper h3,
+.editor-styles-wrapper h4,
+.editor-styles-wrapper h5,
+.editor-styles-wrapper h6{
+	color: #323b45;
+	font-weight: 400;
+	line-height: 1.2;
+	font-family: 'Montserrat', Helvetica, Arial, Verdana, sans-serif;
+	margin: 0;
+}
+
+.editor-styles-wrapper h1{
+	font-size: 26px;
+	margin-bottom: 30px;
+}
+
+.editor-styles-wrapper h2{
+	font-size: 24px;
+	margin-bottom: 25px;
+}
+
+.editor-styles-wrapper h3{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.editor-styles-wrapper h4{
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.editor-styles-wrapper h5{
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.editor-styles-wrapper h6{
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.editor-rich-text__tinymce a{
+	color: #00bc96;
+	text-decoration: none;
+	transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	font-weight: 500;
+}
+
+.editor-rich-text__tinymce a:hover,
+.editor-rich-text__tinymce a:focus,
+.editor-rich-text__tinymce a:active{
+	color: #00bc96;
+}
